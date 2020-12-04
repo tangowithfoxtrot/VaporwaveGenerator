@@ -180,6 +180,6 @@ class VaporSong:
         VaporSong.combine(sectionflat, "beats/out_norev.wav")
         VaporSong.reverbize(
             "beats/out_norev.wav",
-            "./" + (re.sub(r"\W+|_", " ", title)).replace(" ", "_") + ".wav",
+            "./" + "2.wav",
         )
         logger.info("Generated V A P O R W A V E")
