@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from src.VaporSong import VaporSong
 from src.VHSImage import generateVHSStyle
 from src.VHSVideo import VHS_Vid
